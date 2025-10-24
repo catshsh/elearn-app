@@ -1,0 +1,30 @@
+# --- Global ---
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# --- Python / backend ---
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/*.sqlite
+backend/*.db
+backend/instance/
+backend/storage/
+backend/.env
+backend/.env.*  
+
+# --- Node / frontend ---
+frontend/elearn-front/node_modules/
+frontend/elearn-front/.vite/
+frontend/elearn-front/dist/
+frontend/elearn-front/.env
+frontend/elearn-front/.env.*
+
+# --- IDE ---
+.vscode/
+.idea/

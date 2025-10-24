@@ -1,0 +1,12 @@
+export default function App() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-blue-200">
+      <div className="p-10 rounded-2xl shadow-xl border-4">
+        <h1 className="text-4xl font-extrabold tracking-tight">Tailwind OK 🎉</h1>
+        <p className="mt-2 text-lg">
+          Si tu vois le fond <b>bleu clair</b> et un cadre avec bordure épaisse, c’est bon.
+        </p>
+      </div>
+    </div>
+  );
+}
